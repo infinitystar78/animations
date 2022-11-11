@@ -13,7 +13,7 @@ struct CombinedMoveAndScale: View {
     
     var body: some View {
         ZStack {
-            Color("DarkShade2")
+            Color.blue
                 .ignoresSafeArea()
             
             VStack(spacing: 20) {
@@ -27,9 +27,9 @@ struct CombinedMoveAndScale: View {
                         Image(systemName: "macwindow")
                     })
                     if change {
-                        Image("window")
+                        Image(systemName: "car")
                             .transition(.move(edge: .leading)
-                                .combined(with: .scale(scale: 0.1, anchor: .bottomLeading)))
+                                .combined(with: .scale(scale:2, anchor: .topTrailing)))
                     }
                     
                     Spacer()
@@ -38,7 +38,7 @@ struct CombinedMoveAndScale: View {
                 .padding(EdgeInsets(top: 0, leading: 20, bottom: 0, trailing: 0))
             }
             .font(.title)
-            .tint(Color("Accent2"))
+            .tint(Color.green)
         }
     }
 }

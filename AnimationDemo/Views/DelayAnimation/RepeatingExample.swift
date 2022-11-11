@@ -9,13 +9,11 @@ import SwiftUI
 
 struct RepeatingExample: View {
     @State private var start = false
-    
+
     var body: some View {
         VStack(spacing: 20) {
-     
-            
             Spacer()
-            
+
             Button("Start", action: { start.toggle() })
                 .font(.largeTitle)
                 .padding()
@@ -27,9 +25,8 @@ struct RepeatingExample: View {
                         .scaleEffect(start ? 2 : 1)
                         .opacity(start ? 0 : 1))
                 .animation(.easeOut(duration: 1).repeatCount(2), value: start) // Repeat 3 times
-            
+
             Spacer()
-            
         }
         .font(.title)
     }

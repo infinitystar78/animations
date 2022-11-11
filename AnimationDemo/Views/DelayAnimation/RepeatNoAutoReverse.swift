@@ -8,16 +8,12 @@
 import SwiftUI
 
 struct RepeatNoAutoReverse: View {
-    
     @State private var start = false
-    
-    
+
     var body: some View {
         VStack(spacing: 20) {
-
-            
             Spacer()
-            
+
             Button("Start", action: { start = true })
                 .font(.largeTitle)
                 .padding()
@@ -30,9 +26,8 @@ struct RepeatNoAutoReverse: View {
                         .opacity(start ? 0 : 1))
                 .animation(Animation.easeOut(duration: 0.6)
                     .repeatForever(autoreverses: false), value: start) // Do not reverse the animation
-            
+
             Spacer()
-            
         }
         .font(.title)
     }
