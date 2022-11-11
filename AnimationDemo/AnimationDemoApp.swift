@@ -11,7 +11,10 @@ import SwiftUI
 struct AnimationDemoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+            //AnimateColorView()
+            //OnAppearExample()
+           SequenceDelay()
         }
     }
 }

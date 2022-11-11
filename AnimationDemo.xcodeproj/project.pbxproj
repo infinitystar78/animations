@@ -14,6 +14,32 @@
 		CE9E6019291E505F00E075A1 /* AnimationDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E6018291E505F00E075A1 /* AnimationDemoTests.swift */; };
 		CE9E6023291E505F00E075A1 /* AnimationDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E6022291E505F00E075A1 /* AnimationDemoUITests.swift */; };
 		CE9E6025291E505F00E075A1 /* AnimationDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E6024291E505F00E075A1 /* AnimationDemoUITestsLaunchTests.swift */; };
+		CE9E6032291E550A00E075A1 /* AnimateColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E6031291E550A00E075A1 /* AnimateColorView.swift */; };
+		CE9E6035291E56AC00E075A1 /* HueRotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E6034291E56AC00E075A1 /* HueRotationView.swift */; };
+		CE9E6037291E589D00E075A1 /* AnimateGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E6036291E589D00E075A1 /* AnimateGeometryReader.swift */; };
+		CE9E6039291E598800E075A1 /* RotationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E6038291E598800E075A1 /* RotationAnimation.swift */; };
+		CE9E603B291E5A7800E075A1 /* AnimateOpacity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E603A291E5A7800E075A1 /* AnimateOpacity.swift */; };
+		CE9E603D291E5B5600E075A1 /* RotationAnchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E603C291E5B5500E075A1 /* RotationAnchor.swift */; };
+		CE9E603F291E5C3B00E075A1 /* AnimateFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E603E291E5C3B00E075A1 /* AnimateFrame.swift */; };
+		CE9E6041291E5D0000E075A1 /* AnimateScaleAnchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E6040291E5CFF00E075A1 /* AnimateScaleAnchor.swift */; };
+		CE9E6043291E5EB600E075A1 /* AnimateText.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E6042291E5EB600E075A1 /* AnimateText.swift */; };
+		CE9E6045291E5FE300E075A1 /* AnimateCornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E6044291E5FE300E075A1 /* AnimateCornerRadius.swift */; };
+		CE9E6047291E618E00E075A1 /* CircleProgressIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E6046291E618D00E075A1 /* CircleProgressIndicator.swift */; };
+		CE9E6049291E631200E075A1 /* AnimateGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E6048291E631200E075A1 /* AnimateGrid.swift */; };
+		CE9E604D291E685000E075A1 /* Button_Fan_Out.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E604C291E685000E075A1 /* Button_Fan_Out.swift */; };
+		CE9E604F291E698500E075A1 /* SliderAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E604E291E698500E075A1 /* SliderAnimation.swift */; };
+		CE9E6051291E6A8700E075A1 /* SteppersAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E6050291E6A8700E075A1 /* SteppersAnimation.swift */; };
+		CE9E6053291E6BC400E075A1 /* ToggleAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E6052291E6BC400E075A1 /* ToggleAnimation.swift */; };
+		CE9E6055291E6D0100E075A1 /* OnAppearExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E6054291E6D0100E075A1 /* OnAppearExample.swift */; };
+		CE9E6058291E6E4D00E075A1 /* GestureDrag.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E6057291E6E4D00E075A1 /* GestureDrag.swift */; };
+		CE9E605A291E6FA600E075A1 /* GestureLongPress.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E6059291E6FA600E075A1 /* GestureLongPress.swift */; };
+		CE9E605C291E706300E075A1 /* GestureOnTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E605B291E706300E075A1 /* GestureOnTap.swift */; };
+		CE9E605E291E718200E075A1 /* GestureZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E605D291E718200E075A1 /* GestureZoom.swift */; };
+		CE9E6061291E737900E075A1 /* DelayAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E6060291E737900E075A1 /* DelayAnimation.swift */; };
+		CE9E6063291E73FF00E075A1 /* SequenceDelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E6062291E73FF00E075A1 /* SequenceDelay.swift */; };
+		CE9E6065291E74AF00E075A1 /* RepeatingExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E6064291E74AF00E075A1 /* RepeatingExample.swift */; };
+		CE9E6067291E756400E075A1 /* RepeatNoAutoReverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E6066291E756400E075A1 /* RepeatNoAutoReverse.swift */; };
+		CE9E6069291E765100E075A1 /* CombinedMoveAndScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E6068291E765100E075A1 /* CombinedMoveAndScale.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +70,32 @@
 		CE9E601E291E505F00E075A1 /* AnimationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9E6022291E505F00E075A1 /* AnimationDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationDemoUITests.swift; sourceTree = "<group>"; };
 		CE9E6024291E505F00E075A1 /* AnimationDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE9E6031291E550A00E075A1 /* AnimateColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateColorView.swift; sourceTree = "<group>"; };
+		CE9E6034291E56AC00E075A1 /* HueRotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HueRotationView.swift; sourceTree = "<group>"; };
+		CE9E6036291E589D00E075A1 /* AnimateGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateGeometryReader.swift; sourceTree = "<group>"; };
+		CE9E6038291E598800E075A1 /* RotationAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationAnimation.swift; sourceTree = "<group>"; };
+		CE9E603A291E5A7800E075A1 /* AnimateOpacity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateOpacity.swift; sourceTree = "<group>"; };
+		CE9E603C291E5B5500E075A1 /* RotationAnchor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationAnchor.swift; sourceTree = "<group>"; };
+		CE9E603E291E5C3B00E075A1 /* AnimateFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateFrame.swift; sourceTree = "<group>"; };
+		CE9E6040291E5CFF00E075A1 /* AnimateScaleAnchor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateScaleAnchor.swift; sourceTree = "<group>"; };
+		CE9E6042291E5EB600E075A1 /* AnimateText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateText.swift; sourceTree = "<group>"; };
+		CE9E6044291E5FE300E075A1 /* AnimateCornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateCornerRadius.swift; sourceTree = "<group>"; };
+		CE9E6046291E618D00E075A1 /* CircleProgressIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgressIndicator.swift; sourceTree = "<group>"; };
+		CE9E6048291E631200E075A1 /* AnimateGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateGrid.swift; sourceTree = "<group>"; };
+		CE9E604C291E685000E075A1 /* Button_Fan_Out.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_Fan_Out.swift; sourceTree = "<group>"; };
+		CE9E604E291E698500E075A1 /* SliderAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderAnimation.swift; sourceTree = "<group>"; };
+		CE9E6050291E6A8700E075A1 /* SteppersAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteppersAnimation.swift; sourceTree = "<group>"; };
+		CE9E6052291E6BC400E075A1 /* ToggleAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleAnimation.swift; sourceTree = "<group>"; };
+		CE9E6054291E6D0100E075A1 /* OnAppearExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearExample.swift; sourceTree = "<group>"; };
+		CE9E6057291E6E4D00E075A1 /* GestureDrag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureDrag.swift; sourceTree = "<group>"; };
+		CE9E6059291E6FA600E075A1 /* GestureLongPress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureLongPress.swift; sourceTree = "<group>"; };
+		CE9E605B291E706300E075A1 /* GestureOnTap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureOnTap.swift; sourceTree = "<group>"; };
+		CE9E605D291E718200E075A1 /* GestureZoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureZoom.swift; sourceTree = "<group>"; };
+		CE9E6060291E737900E075A1 /* DelayAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayAnimation.swift; sourceTree = "<group>"; };
+		CE9E6062291E73FF00E075A1 /* SequenceDelay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceDelay.swift; sourceTree = "<group>"; };
+		CE9E6064291E74AF00E075A1 /* RepeatingExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatingExample.swift; sourceTree = "<group>"; };
+		CE9E6066291E756400E075A1 /* RepeatNoAutoReverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatNoAutoReverse.swift; sourceTree = "<group>"; };
+		CE9E6068291E765100E075A1 /* CombinedMoveAndScale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinedMoveAndScale.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				CE9E6007291E505C00E075A1 /* AnimationDemoApp.swift */,
-				CE9E6009291E505C00E075A1 /* ContentView.swift */,
+				CE9E6033291E551400E075A1 /* Views */,
 				CE9E600B291E505F00E075A1 /* Assets.xcassets */,
 				CE9E600D291E505F00E075A1 /* Preview Content */,
 			);
@@ -125,6 +177,72 @@
 				CE9E6024291E505F00E075A1 /* AnimationDemoUITestsLaunchTests.swift */,
 			);
 			path = AnimationDemoUITests;
+			sourceTree = "<group>";
+		};
+		CE9E6033291E551400E075A1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE9E605F291E735F00E075A1 /* DelayAnimation */,
+				CE9E6056291E6DF100E075A1 /* Gestures */,
+				CE9E604B291E681000E075A1 /* Controls */,
+				CE9E604A291E680200E075A1 /* Animations */,
+				CE9E6068291E765100E075A1 /* CombinedMoveAndScale.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE9E604A291E680200E075A1 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				CE9E6009291E505C00E075A1 /* ContentView.swift */,
+				CE9E6031291E550A00E075A1 /* AnimateColorView.swift */,
+				CE9E6034291E56AC00E075A1 /* HueRotationView.swift */,
+				CE9E6036291E589D00E075A1 /* AnimateGeometryReader.swift */,
+				CE9E6038291E598800E075A1 /* RotationAnimation.swift */,
+				CE9E603C291E5B5500E075A1 /* RotationAnchor.swift */,
+				CE9E603A291E5A7800E075A1 /* AnimateOpacity.swift */,
+				CE9E603E291E5C3B00E075A1 /* AnimateFrame.swift */,
+				CE9E6040291E5CFF00E075A1 /* AnimateScaleAnchor.swift */,
+				CE9E6042291E5EB600E075A1 /* AnimateText.swift */,
+				CE9E6044291E5FE300E075A1 /* AnimateCornerRadius.swift */,
+				CE9E6046291E618D00E075A1 /* CircleProgressIndicator.swift */,
+				CE9E6048291E631200E075A1 /* AnimateGrid.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		CE9E604B291E681000E075A1 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				CE9E604C291E685000E075A1 /* Button_Fan_Out.swift */,
+				CE9E604E291E698500E075A1 /* SliderAnimation.swift */,
+				CE9E6050291E6A8700E075A1 /* SteppersAnimation.swift */,
+				CE9E6052291E6BC400E075A1 /* ToggleAnimation.swift */,
+				CE9E6054291E6D0100E075A1 /* OnAppearExample.swift */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		CE9E6056291E6DF100E075A1 /* Gestures */ = {
+			isa = PBXGroup;
+			children = (
+				CE9E6057291E6E4D00E075A1 /* GestureDrag.swift */,
+				CE9E6059291E6FA600E075A1 /* GestureLongPress.swift */,
+				CE9E605B291E706300E075A1 /* GestureOnTap.swift */,
+				CE9E605D291E718200E075A1 /* GestureZoom.swift */,
+			);
+			path = Gestures;
+			sourceTree = "<group>";
+		};
+		CE9E605F291E735F00E075A1 /* DelayAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				CE9E6060291E737900E075A1 /* DelayAnimation.swift */,
+				CE9E6062291E73FF00E075A1 /* SequenceDelay.swift */,
+				CE9E6064291E74AF00E075A1 /* RepeatingExample.swift */,
+				CE9E6066291E756400E075A1 /* RepeatNoAutoReverse.swift */,
+			);
+			path = DelayAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +375,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE9E6039291E598800E075A1 /* RotationAnimation.swift in Sources */,
 				CE9E600A291E505C00E075A1 /* ContentView.swift in Sources */,
+				CE9E6063291E73FF00E075A1 /* SequenceDelay.swift in Sources */,
+				CE9E605A291E6FA600E075A1 /* GestureLongPress.swift in Sources */,
+				CE9E6069291E765100E075A1 /* CombinedMoveAndScale.swift in Sources */,
+				CE9E6053291E6BC400E075A1 /* ToggleAnimation.swift in Sources */,
+				CE9E603D291E5B5600E075A1 /* RotationAnchor.swift in Sources */,
+				CE9E605E291E718200E075A1 /* GestureZoom.swift in Sources */,
+				CE9E604F291E698500E075A1 /* SliderAnimation.swift in Sources */,
+				CE9E603F291E5C3B00E075A1 /* AnimateFrame.swift in Sources */,
+				CE9E6055291E6D0100E075A1 /* OnAppearExample.swift in Sources */,
+				CE9E603B291E5A7800E075A1 /* AnimateOpacity.swift in Sources */,
+				CE9E6041291E5D0000E075A1 /* AnimateScaleAnchor.swift in Sources */,
+				CE9E6035291E56AC00E075A1 /* HueRotationView.swift in Sources */,
+				CE9E6043291E5EB600E075A1 /* AnimateText.swift in Sources */,
+				CE9E6045291E5FE300E075A1 /* AnimateCornerRadius.swift in Sources */,
+				CE9E6061291E737900E075A1 /* DelayAnimation.swift in Sources */,
+				CE9E6047291E618E00E075A1 /* CircleProgressIndicator.swift in Sources */,
+				CE9E6032291E550A00E075A1 /* AnimateColorView.swift in Sources */,
+				CE9E6065291E74AF00E075A1 /* RepeatingExample.swift in Sources */,
+				CE9E6067291E756400E075A1 /* RepeatNoAutoReverse.swift in Sources */,
+				CE9E6049291E631200E075A1 /* AnimateGrid.swift in Sources */,
+				CE9E6037291E589D00E075A1 /* AnimateGeometryReader.swift in Sources */,
+				CE9E604D291E685000E075A1 /* Button_Fan_Out.swift in Sources */,
+				CE9E6058291E6E4D00E075A1 /* GestureDrag.swift in Sources */,
+				CE9E6051291E6A8700E075A1 /* SteppersAnimation.swift in Sources */,
+				CE9E605C291E706300E075A1 /* GestureOnTap.swift in Sources */,
 				CE9E6008291E505C00E075A1 /* AnimationDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
